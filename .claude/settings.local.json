@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const sdk = require\\('@stellar/stellar-sdk'\\); const kp = sdk.Keypair.random\\(\\); console.log\\(kp.publicKey\\(\\)\\);\")"
+    ]
+  }
+}
